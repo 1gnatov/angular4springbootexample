@@ -1,6 +1,7 @@
 package com.example.angulardemo.controllers;
 
 import com.example.angulardemo.models.Product;
+import io.swagger.annotations.Api;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
+@Api(value = "Product Controller")
 @RestController
 @RequestMapping("/api")
 public class ProductController {
