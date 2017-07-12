@@ -19,8 +19,11 @@ This command will up a spring-boot application on port 8080 with:
 
 Front-end:
 --
+Initially one time go to client folder and run 
 
-Go to client folder and run
+`npm install`
+
+After run:
 
 `npm run start`
 
